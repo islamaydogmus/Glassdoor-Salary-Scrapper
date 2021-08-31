@@ -26,5 +26,3 @@ def read_list_of_jobs(country):
             print(calculate_montly(df))
         except:
             print("Couldn't find anything about " + job)
-
-read_list_of_jobs("Turkey")
